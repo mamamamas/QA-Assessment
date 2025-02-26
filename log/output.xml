@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.12.7 on win32)" generated="2025-02-06T20:49:32.863990" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCase1" source="C:\Users\Mark\OneDrive\Desktop\Robot Framework\Tests\TestCase1.robot">
+<test id="s1-t1" name="LOGINTEST" line="21">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-02-06T20:49:33.306650" level="INFO">Opening browser 'chrome' to base url 'https://saulus1.onrender.com/login'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-02-06T20:49:33.305152" elapsed="3.297336"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-02-06T20:49:36.609660" level="INFO">Clicking button '//*[@id="root"]/div/div[2]/div[3]/div[2]/div/button[2]'.</msg>
+<msg time="2025-02-06T20:49:36.808010" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-02-06T20:49:36.809010" level="FAIL">Button with locator '//*[@id="root"]/div/div[2]/div[3]/div[2]/div/button[2]' not found.</msg>
+<arg>//*[@id="root"]/div/div[2]/div[3]/div[2]/div/button[2]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2025-02-06T20:49:36.602488" elapsed="0.211527">Button with locator '//*[@id="root"]/div/div[2]/div[3]/div[2]/div/button[2]' not found.</status>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[2]/div[3]/div[2]/input</arg>
+<arg>admin</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-06T20:49:36.814015" elapsed="0.000000"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[2]/div[3]/div[2]/div[1]/input</arg>
+<arg>admin</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-06T20:49:36.815030" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[2]/div[3]/div[2]/div[2]/button[1]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-06T20:49:36.815030" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[2]/div[2]/div[2]/div/div/div[2]/button</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-02-06T20:49:36.816022" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-02-06T20:49:33.304143" elapsed="3.511879">Button with locator '//*[@id="root"]/div/div[2]/div[3]/div[2]/div/button[2]' not found.</status>
+</test>
+<status status="FAIL" start="2025-02-06T20:49:32.892868" elapsed="3.924164"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TestCase1" id="s1" pass="0" fail="1" skip="0">TestCase1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
